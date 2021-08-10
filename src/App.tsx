@@ -91,9 +91,17 @@ const App: React.FC = () => {
               {/* <Ifos /> */}
               <ComingSoon feature="IMO" />
             </Route>
+            <Route path="/trade">
+              {/* <Ifos /> */}
+              <ComingSoon feature="Trade" />
+            </Route>
             <Route path="/collectibles">
               {/* <Collectibles /> */}
               <ComingSoon feature="Collectibles" />
+            </Route>
+            <Route path="/info">
+              {/* <Collectibles /> */}
+              <ComingSoon feature="Info" />
             </Route>
             <Route exact path="/teams">
               <Teams />

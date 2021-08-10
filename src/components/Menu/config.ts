@@ -45,7 +45,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
     label: t('Info'),
     icon: 'Info',
-    href: 'https://pancakeswap.info',
+    href: '/info',
   },
   {
     label: t('IMO'),
@@ -58,27 +58,19 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
-      },
-      {
-        label: t('Voting'),
-        href: '/voting',
+        href: 'https://monsterswap.gitbook.io/monsterswap-1/contact/customer-support',
       },
       {
         label: t('Github'),
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/monsterswap-finance',
       },
       {
         label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://monsterswap.gitbook.io/monsterswap-1/',
       },
       {
         label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: t('Merch'),
-        href: 'https://pancakeswap.creator-spring.com/',
+        href: 'https://monsterswap.medium.com/',
       },
     ],
   },
